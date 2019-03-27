@@ -3,6 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style type="text/css">
+        h2 {
+            color: aqua;
+
+        }
+        h2:hover{
+            color: violet;
+        }
+        #maxathuc{
+            background: yellow;
+        }
+        #taotaikhoan{
+            width: 500px;
+            height: 50px;
+            background: yellow;
+        }
+        p:hover{
+            color: violet;
+        }
+        a:hover{
+            color: #FFFF00;
+        }
+        a:active{
+            color: red;
+        }
+        a:link{
+            text-decoration: none;
+        }
+
+
+
+    </style>
 </head>
 <body>
 <div class="container" style="overflow: hidden">
@@ -24,10 +56,10 @@
         <p>
             <label>SDT</label>
             <input type="text" name="phone" value="">
-            <button>Gửi mã xác thực</button>
+            <button id="maxathuc">Gửi mã xác thực</button>
         </p>
-        <p>
-            <label>Mã xác thực</label>
+        <p >
+            <label >Mã xác thực</label>
             <input type="text" name="code" value="">
         </p>
         <p>
@@ -40,7 +72,7 @@
         </p>
         <p>
             <label> Giới tính </label>
-            <span>
+            <span >
                 Nam
                 <input type="radio" name="gender" value="nam">
             </span>
@@ -74,7 +106,7 @@
                 <option value="10">10</option>
                 <option value="11">11</option>
                 <option value="12">12</option>
-
+>
             </select>
             <select name="year">
                 <option value="">Năm</option>
@@ -89,9 +121,9 @@
             <input type="checkbox" name="bantin" value="">
             Nhận các thông tin và chương trình khuyến mãi của Tiki qua email.
         </p>
-        <p>
+        <p >
 
-            <input type="submit" name="gui thong tin" value="Tạo tài khoản">
+            <input id="taotaikhoan" type="submit" name="gui thong tin" value="Tạo Tài Khoản">
         </p>
         <P>Khi bạn nhấn Đăng ký, bạn đã đồng ý thực hiện mọi giao dịch mua bán theo
            <a href="https://hotro.tiki.vn/hc/vi/articles/201971214">điều kiện sử dụng và chính sách của Tiki.</a>
