@@ -1,0 +1,117 @@
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.header {
+    box-sizing: border-box;
+    height: 170px;
+    max-height: 170px;
+    padding: 50px 0;
+}
+
+.header.logo {
+
+}
+
+.header nav.main-menu {
+
+}
+
+.header nav.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.header nav.main-menu li {
+    float: left;
+}
+
+.header nav.main-menu a {
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    color: #5c5c5c;
+}
+.banner{
+    padding-left: 110px;
+}
+.banner p{
+    color: #07aaf5;
+}
+.banner h1{
+    font-weight: bold;
+    font-size: 80px;
+}
+.banner h3{
+    color: #777777;
+
+}
+footer{
+    background: #f6f7f8;
+}
+footer .social-icon{
+    height: 245px;
+    background: #363642;
+    text-align: center;
+    padding-top: 120px;
+}
+footer .social-icon i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #464652;
+    text-align: center;
+    color: white;
+    margin-right: 20px;
+}
+footer .social-icon i:hover{
+    background: #0aaefa;
+}
+.social-icon p{
+    color: #838383;
+}
+.sidebar{
+    padding: 119px 0;
+}
+.container.contact-info {
+    overflow: auto;
+    margin: 1.5em auto;
+}
+.contact-info h3 {
+    text-align: center;
+    font-size: 40px;
+}
+.contact-info span{
+    color: #07aaf5;
+    font-size: 60px;
+}
+.contact-info .col{
+    float: left;
+    width: 31.5%;
+    background: white;
+    height: 107px;
+    text-align: center;
+}
+.contact-info i{
+    float: left;
+    font-size: 50px;
+
+}
+.contact-info i , p{
+    padding-top: 30px;
+}
+.contact-info .Phone, .Home{
+    margin-right: 25px;
+}
+.contact-info .Gmail{
+    margin-right: 0px;
+}
