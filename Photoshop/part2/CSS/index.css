@@ -40,8 +40,13 @@
     font-size: 20px;
     color: #5c5c5c;
 }
-.banner{
+.banner {
     padding-left: 110px;
+    background-image: url("f-005-resume-website-template_03.jpg");
+    background-repeat: no-repeat;
+}
+.banner img{
+
 }
 .banner p{
     color: #07aaf5;
@@ -52,32 +57,6 @@
 }
 .banner h3{
     color: #777777;
-
-}
-footer{
-    background: #f6f7f8;
-}
-footer .social-icon{
-    height: 245px;
-    background: #363642;
-    text-align: center;
-    padding-top: 120px;
-}
-footer .social-icon i {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 50%;
-    background: #464652;
-    text-align: center;
-    color: white;
-    margin-right: 20px;
-}
-footer .social-icon i:hover{
-    background: #0aaefa;
-}
-.social-icon p{
-    color: #838383;
 }
 .sidebar{
     padding: 119px 0;
@@ -115,3 +94,67 @@ footer .social-icon i:hover{
 .contact-info .Gmail{
     margin-right: 0px;
 }
+footer{
+    background: #f6f7f8;
+}
+footer .social-icon{
+    height: 245px;
+    background: #363642;
+    text-align: center;
+    padding-top: 120px;
+}
+footer .social-icon i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #464652;
+    text-align: center;
+    color: white;
+    margin-right: 20px;
+}
+footer .social-icon i:hover{
+    background: #0aaefa;
+}
+.social-icon p{
+    color: #838383;
+}
+.content-form {
+    box-sizing: border-box;
+    padding: 60px;
+    margin-top: 138px;
+    margin-right: 100px;
+}
+input[type = text],textarea {
+    border: 20px solid #f6f7f8;
+    width: 100%;
+    padding: 12px;
+    resize: vertical;
+    outline: none;
+}
+.first-row input {
+    width: 48%;
+}
+
+.first-row:after {
+    content: '';
+    clear: both;
+}
+
+.first-row input[name="email"] {
+    float: right;
+}
+input[type=submit] {
+    width: 165px;
+    background: #0aaefa;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+    float: right;
+}
+input[type=submit]:hover{
+    background: #6EB6F4;
+}
+
